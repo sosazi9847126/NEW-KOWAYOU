@@ -2,7 +2,7 @@ name: CACAI
 
 on:
   schedule:
-  - cron: '02 15,19,23,3,7,11 * * *'  #7>11>15>19>23>3&&&
+  - cron: '02 15,23,3,11 * * *'  #7>15>19>3&&&
   workflow_dispatch:
     分支:
       - main
